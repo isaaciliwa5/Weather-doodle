@@ -1,0 +1,49 @@
+/* Styling for a class */
+.card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #326500;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+/* Styling for an ID */
+#main-heading {
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#main-heading2 {
+    font-size: 1.3em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Styling for an attribute selector (targeting links with the "target" attribute) */
+a[target="_blank"] {
+    color: #007bff;
+    text-decoration: underline;
+}
+
+a[target="_blank"]:hover {
+    color: #0056b3;
+}
+
+/* Styling for an input element with the type attribute set text */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+/* Styling for an enable button (using attribute selector) */
+button[enabled] {
+    background: #ccc;
+    color: #666;
+    cursor: not-allowed;
+}
